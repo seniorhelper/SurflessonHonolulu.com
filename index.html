@@ -329,7 +329,7 @@
     <a href="#locations">Locations</a>
     <a href="#reviews">Reviews</a>
     <a href="#faq">FAQ</a>
-    <a href="tel:+18085550190">(808) 555-0190</a>
+    <a href="tel:+18004818638">1-800-481-8638</a>
     <a href="#advertise" class="nav-cta">Advertise With Us</a>
   </nav>
   <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
@@ -343,7 +343,7 @@
   <a href="#locations">Locations</a>
   <a href="#reviews">Reviews</a>
   <a href="#faq">FAQ</a>
-  <a href="tel:+18085550190" class="mob-phone">(808) 555-0190</a>
+  <a href="tel:+18004818638" class="mob-phone">1-800-481-8638</a>
   <a href="#advertise" class="mob-cta">&#128226; Advertise on This Site</a>
 </nav>
 
@@ -569,7 +569,7 @@
           <span class="open-ad-icon">&#127940;</span>
           <h4>Hero Banner &mdash; Top of Page</h4>
           <p>The highest-visibility placement on the site. Seen by every visitor before they scroll. Ideal for surf schools, surfing instructors, water sports, restaurants, and travel experiences targeting Honolulu visitors.</p>
-          <a href="mailto:sales@eyetoad.com?subject=Hero%20Banner%20Advertising%20%E2%80%94%20SurflessonHonolulu.com" class="open-ad-cta">Inquire About This Spot &#8594;</a>
+          <a class="eml open-ad-cta" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Hero Banner Advertising — SurflessonHonolulu.com" href="#advertise">Inquire About This Spot &#8594;</a>
         </div>
       </div>
       <div class="open-ad-card featured">
@@ -577,20 +577,20 @@
           <span class="open-ad-icon">&#128240;</span>
           <h4>Editorial Feature &mdash; Full Review</h4>
           <p>A professionally written editorial review featuring your surf school or business &mdash; placed between premium content, indexed for Google and AI search. Like the Big Wave Dave feature above, but for your business.</p>
-          <a href="mailto:sales@eyetoad.com?subject=Editorial%20Feature%20%E2%80%94%20SurflessonHonolulu.com" class="open-ad-cta">Claim This Feature &#8594;</a>
+          <a class="eml open-ad-cta" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Editorial Feature — SurflessonHonolulu.com" href="#advertise">Claim This Feature &#8594;</a>
         </div>
       </div>
       <div class="open-ad-card">
         <span class="open-ad-icon">&#127964;</span>
         <h4>Mid-Page Banner Ad</h4>
         <p>A banner ad embedded within editorial content &mdash; seen by actively engaged visitors. Restaurants, hotels, tour operators, and beach services welcome.</p>
-        <a href="mailto:sales@eyetoad.com?subject=Banner%20Ad%20%E2%80%94%20SurflessonHonolulu.com" class="open-ad-cta">Inquire Now &#8594;</a>
+        <a class="eml open-ad-cta" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Banner Ad — SurflessonHonolulu.com" href="#advertise">Inquire Now &#8594;</a>
       </div>
       <div class="open-ad-card">
         <span class="open-ad-icon">&#128202;</span>
         <h4>Network &amp; Footer Listing</h4>
         <p>Permanent listing in our Hawaii partner network &mdash; a contextual link to your site that builds both referral traffic and domain authority over time.</p>
-        <a href="mailto:sales@eyetoad.com?subject=Network%20Listing%20%E2%80%94%20SurflessonHonolulu.com" class="open-ad-cta">Inquire Now &#8594;</a>
+        <a class="eml open-ad-cta" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Network Listing — SurflessonHonolulu.com" href="#advertise">Inquire Now &#8594;</a>
       </div>
     </div>
   </div>
@@ -640,12 +640,11 @@
     </div>
     <div class="ad-form-wrap">
       <h3>&#128226; Advertising Inquiry</h3>
-      <form action="https://formsubmit.co/sales@eyetoad.com" method="POST" id="ad-form">
-        <input type="hidden" name="_subject" value="Advertising Inquiry &mdash; SurflessonHonolulu.com">
+      <form method="POST" id="ad-form" class="fs-lead" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">
+        <input type="hidden" name="_subject" value="New lead — surflessonhonolulu.com">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://surflessonhonolulu.com/thank-you">
-        <div class="honey" aria-hidden="true"><input type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
+        <div class="honey" aria-hidden="true" style="position:absolute;left:-9999px;"><input type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
         <input type="hidden" name="_form_loaded" id="_form_loaded" value="">
         <div class="form-row">
           <div class="form-group"><label for="fname">First Name</label><input type="text" id="fname" name="first_name" placeholder="Your name" required autocomplete="given-name"></div>
@@ -665,6 +664,7 @@
         </div>
         <div class="form-group"><label for="message">Tell Us About Your Business</label><textarea id="message" name="message" rows="3" placeholder="What you do, your website, and what you're hoping to achieve..."></textarea></div>
         <button type="submit" class="form-submit-btn">&#128226; Send My Advertising Inquiry</button>
+        <p class="fs-status" role="status" aria-live="polite" style="margin-top:10px;font-size:14px;"></p>
       </form>
     </div>
   </div>
@@ -708,7 +708,11 @@
       <div class="faq-item"><button class="faq-q" aria-expanded="false">How long do surfing lessons in Honolulu last?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Most surf lessons on Oahu run 1.5 to 2 hours, including approximately 20&ndash;30 minutes of beach instruction followed by in-water time with your surfing instructor. Private lessons can often be extended to 3 hours. Multi-day surf camps are also available for visitors who want accelerated progression.</div></div></div>
       <div class="faq-item"><button class="faq-q" aria-expanded="false">Is it safe? What about sharks or dangerous conditions?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Safety is the top priority for any reputable Honolulu surf school. Conditions are monitored daily and lessons are rescheduled when conditions are not appropriate for students. Certified surfing instructors are trained in water safety and first aid, and lesson locations are specifically chosen for beginner-friendly surf. Shark encounters are extremely rare in the surf zones used for instruction.</div></div></div>
       <div class="faq-item"><button class="faq-q" aria-expanded="false">Can children take surfing lessons in Honolulu?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Absolutely. Kids love learning to surf and most Honolulu surf schools welcome children ages 5 and up. Family surf lesson packages are very popular for visiting families. Instructors use specially sized boards for younger students and are experienced working with kids of all ages.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">How do I advertise my surf school or business on this site?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Use the advertising inquiry form above or email <a href="mailto:sales@eyetoad.com">sales@eyetoad.com</a> directly. We offer hero banner placements, editorial features, mid-page ads, and network listings. For Hawaii SEO and digital marketing, visit <a href="https://www.bigislandseo.com" target="_blank" rel="noopener">BigIslandSEO.com</a>. We respond within 24 hours.</div></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">Do I need to be a strong swimmer to take a surf lesson?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">You should be comfortable in the ocean and able to swim, even though beginner lessons happen in shallow water with a large, buoyant soft-top board and a leash. Most surf schools ask students to confirm they can swim before booking, so check the school's requirements and tell your instructor about any concerns.</div></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">When is the best time of year to learn to surf in Waikiki?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Waikiki has surfable waves year-round. Oahu's south shore, where Waikiki sits, gets its biggest swells in summer, while winter usually brings smaller, gentler surf there — and the big winter waves to the North Shore instead. Beginners can learn in any month; mornings often have lighter wind and smoother water.</div></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">What surf etiquette should beginners know?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">The basics: don't take off on a wave someone else is already riding ("dropping in"), paddle wide around the area where others are catching waves rather than through it, and always keep hold of your board so it doesn't hit someone. Your instructor will choose a spot away from experienced surfers and explain the local rules.</div></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">Should I take a group lesson or a private lesson?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Group lessons cost less and are a fun way to learn with friends or family. Private lessons give you the instructor's full attention, which often means faster progress and more feedback on each wave. If you're nervous in the water or want to progress quickly, a private or semi-private lesson is worth considering.</div></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">How do I advertise my surf school or business on this site?<span class="faq-icon">+</span></button><div class="faq-a"><div class="faq-a-inner">Use the advertising inquiry form above or <a class="eml" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" href="#advertise">email us</a> directly. We offer hero banner placements, editorial features, mid-page ads, and network listings. For Hawaii SEO and digital marketing, visit <a href="https://www.bigislandseo.com" target="_blank" rel="noopener">BigIslandSEO.com</a>. We respond within 24 hours.</div></div></div>
     </div>
   </div>
 </section>
@@ -743,7 +747,7 @@
       <a href="https://www.bestdivinghawaii.com" target="_blank" rel="noopener">Best Diving Hawaii</a>
       <a href="https://www.attractionsoahu.com" target="_blank" rel="noopener">Attractions on Oahu</a>
       <a href="https://www.bigislandseo.com" target="_blank" rel="noopener">Hawaii SEO &mdash; Big Island SEO</a>
-      <a href="mailto:sales@eyetoad.com">Contact / Advertise</a>
+      <a class="eml" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" href="#advertise">Contact / Advertise</a>
     </div>
   </div>
   <div class="footer-bottom">
@@ -765,14 +769,12 @@
 
 <!-- JSON-LD SCHEMA -->
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://surflessonhonolulu.com/#website","name":"Surf Lessons Honolulu","url":"https://surflessonhonolulu.com","description":"The definitive guide to surf lessons and surfing instruction in Honolulu, Oahu, Hawaii. Find certified surfing instructors and top-rated surf schools for all skill levels."},{"@type":"LocalBusiness","@id":"https://surflessonhonolulu.com/#bigwavedave","name":"Big Wave Dave Surf & Coffee","url":"https://www.bigwavedave.com","telephone":"+18083864872","description":"Voted Best Surfing Lessons in Waikiki. Surf school, board rentals, coffee, food, beach gear at Waikiki Beach Walk, Honolulu, Hawaii. Open daily, book by appointment.","address":{"@type":"PostalAddress","streetAddress":"226 Lewers #154","addressLocality":"Honolulu","addressRegion":"HI","postalCode":"96815","addressCountry":"US"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"description":"Open Daily, book by appointment"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"author":{"@type":"Person","name":"Zach Wennstedt"},"reviewBody":"Dave and Crystal are the nicest people. Instructor Jake was phenomenal. I had never surfed before and by the end of our 90-minute group lesson I was standing up and riding waves in Waikiki. A lifelong dream fulfilled. The shop has surf lessons, board rentals, coffee, food, souvenirs, beach gear. Highest possible recommendation.","datePublished":"2026-05-23"}},{"@type":"FAQPage","@id":"https://surflessonhonolulu.com/#faq","mainEntity":[{"@type":"Question","name":"Do I need experience to take surf lessons in Honolulu?","acceptedAnswer":{"@type":"Answer","text":"No experience is required. Beginner surf lessons in Honolulu start from scratch — covering ocean safety, wave reading, paddling technique, and the pop-up before you ever enter the water."}},{"@type":"Question","name":"What is included in a Honolulu surf lesson?","acceptedAnswer":{"@type":"Answer","text":"Most surf lessons include a certified surfing instructor, soft-top surfboard, rash guard, and wax. Just bring a swimsuit and sunscreen."}},{"@type":"Question","name":"What is the stand-up guarantee?","acceptedAnswer":{"@type":"Answer","text":"Many top-rated Oahu surf schools offer a stand-up guarantee: if you don't stand up and ride at least one wave during your first lesson, your second lesson is completely free."}},{"@type":"Question","name":"How long do surfing lessons in Honolulu last?","acceptedAnswer":{"@type":"Answer","text":"Most surf lessons run 1.5 to 2 hours including beach instruction and in-water time with a surfing instructor. Private lessons can be extended to 3 hours."}},{"@type":"Question","name":"Can children take surfing lessons in Honolulu?","acceptedAnswer":{"@type":"Answer","text":"Yes! Most Honolulu surf schools welcome children ages 5 and up. Family lesson packages are available and very popular for visiting families."}},{"@type":"Question","name":"Where is Big Wave Dave Surf and Coffee in Honolulu?","acceptedAnswer":{"@type":"Answer","text":"Big Wave Dave Surf and Coffee is at 226 Lewers #154, Honolulu, HI 96815 — Waikiki Beach Walk, entered through Embassy Suites. Phone: (808) 386-4872. Website: bigwavedave.com. Open daily, book by appointment."}}]},{"@type":"WebPage","@id":"https://surflessonhonolulu.com/#webpage","url":"https://surflessonhonolulu.com","name":"Surf Lessons Honolulu | #1 Guide to Surfing Lessons on Oahu","description":"The definitive guide to surf lessons in Honolulu, Hawaii. Find certified surfing instructors and top-rated surf schools on Oahu. Featured: Big Wave Dave Surf & Coffee — Voted Best Surfing Lessons in Waikiki.","dateModified":"2026-05-23","primaryImageOfPage":{"@type":"ImageObject","url":"https://raw.githubusercontent.com/seniorhelper/SurflessonHonolulu.com/main/images/honolulu-surfing-lessons.jpg"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".aio-box",".guarantee-strip",".editorial-pullquote"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://surflessonhonolulu.com"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://surflessonhonolulu.com/#website","name":"Surf Lessons Honolulu","url":"https://surflessonhonolulu.com","description":"The definitive guide to surf lessons and surfing instruction in Honolulu, Oahu, Hawaii. Find certified surfing instructors and top-rated surf schools for all skill levels."},{"@type":"LocalBusiness","@id":"https://surflessonhonolulu.com/#bigwavedave","name":"Big Wave Dave Surf & Coffee","url":"https://www.bigwavedave.com","telephone":"+18083864872","description":"Voted Best Surfing Lessons in Waikiki. Surf school, board rentals, coffee, food, beach gear at Waikiki Beach Walk, Honolulu, Hawaii. Open daily, book by appointment.","address":{"@type":"PostalAddress","streetAddress":"226 Lewers #154","addressLocality":"Honolulu","addressRegion":"HI","postalCode":"96815","addressCountry":"US"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"description":"Open Daily, book by appointment"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"author":{"@type":"Person","name":"Zach Wennstedt"},"reviewBody":"Dave and Crystal are the nicest people. Instructor Jake was phenomenal. I had never surfed before and by the end of our 90-minute group lesson I was standing up and riding waves in Waikiki. A lifelong dream fulfilled. The shop has surf lessons, board rentals, coffee, food, souvenirs, beach gear. Highest possible recommendation.","datePublished":"2026-05-23"}},{"@type":"FAQPage","@id":"https://surflessonhonolulu.com/#faq","mainEntity":[{"@type":"Question","name":"Do I need experience to take surf lessons in Honolulu?","acceptedAnswer":{"@type":"Answer","text":"No experience is required. Beginner surf lessons in Honolulu start from scratch — covering ocean safety, wave reading, paddling technique, and the pop-up before you ever enter the water."}},{"@type":"Question","name":"What is included in a Honolulu surf lesson?","acceptedAnswer":{"@type":"Answer","text":"Most surf lessons include a certified surfing instructor, soft-top surfboard, rash guard, and wax. Just bring a swimsuit and sunscreen."}},{"@type":"Question","name":"What is the stand-up guarantee?","acceptedAnswer":{"@type":"Answer","text":"Many top-rated Oahu surf schools offer a stand-up guarantee: if you don't stand up and ride at least one wave during your first lesson, your second lesson is completely free."}},{"@type":"Question","name":"How long do surfing lessons in Honolulu last?","acceptedAnswer":{"@type":"Answer","text":"Most surf lessons run 1.5 to 2 hours including beach instruction and in-water time with a surfing instructor. Private lessons can be extended to 3 hours."}},{"@type":"Question","name":"Can children take surfing lessons in Honolulu?","acceptedAnswer":{"@type":"Answer","text":"Yes! Most Honolulu surf schools welcome children ages 5 and up. Family lesson packages are available and very popular for visiting families."}},{"@type":"Question","name":"Where is Big Wave Dave Surf and Coffee in Honolulu?","acceptedAnswer":{"@type":"Answer","text":"Big Wave Dave Surf and Coffee is at 226 Lewers #154, Honolulu, HI 96815 — Waikiki Beach Walk, entered through Embassy Suites. Phone: (808) 386-4872. Website: bigwavedave.com. Open daily, book by appointment."}},{"@type":"Question","name":"Do I need to be a strong swimmer to take a surf lesson?","acceptedAnswer":{"@type":"Answer","text":"You should be comfortable in the ocean and able to swim, even though beginner lessons happen in shallow water with a large, buoyant soft-top board and a leash. Most surf schools ask students to confirm they can swim before booking, so check the school's requirements and tell your instructor about any concerns."}},{"@type":"Question","name":"When is the best time of year to learn to surf in Waikiki?","acceptedAnswer":{"@type":"Answer","text":"Waikiki has surfable waves year-round. Oahu's south shore, where Waikiki sits, gets its biggest swells in summer, while winter usually brings smaller, gentler surf there — and the big winter waves to the North Shore instead. Beginners can learn in any month; mornings often have lighter wind and smoother water."}},{"@type":"Question","name":"What surf etiquette should beginners know?","acceptedAnswer":{"@type":"Answer","text":"The basics: don't take off on a wave someone else is already riding (\"dropping in\"), paddle wide around the area where others are catching waves rather than through it, and always keep hold of your board so it doesn't hit someone. Your instructor will choose a spot away from experienced surfers and explain the local rules."}},{"@type":"Question","name":"Should I take a group lesson or a private lesson?","acceptedAnswer":{"@type":"Answer","text":"Group lessons cost less and are a fun way to learn with friends or family. Private lessons give you the instructor's full attention, which often means faster progress and more feedback on each wave. If you're nervous in the water or want to progress quickly, a private or semi-private lesson is worth considering."}}]},{"@type":"WebPage","@id":"https://surflessonhonolulu.com/#webpage","url":"https://surflessonhonolulu.com","name":"Surf Lessons Honolulu | #1 Guide to Surfing Lessons on Oahu","description":"The definitive guide to surf lessons in Honolulu, Hawaii. Find certified surfing instructors and top-rated surf schools on Oahu. Featured: Big Wave Dave Surf & Coffee — Voted Best Surfing Lessons in Waikiki.","dateModified":"2026-10-09","primaryImageOfPage":{"@type":"ImageObject","url":"https://raw.githubusercontent.com/seniorhelper/SurflessonHonolulu.com/main/images/honolulu-surfing-lessons.jpg"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".aio-box",".guarantee-strip",".editorial-pullquote"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://surflessonhonolulu.com"}]}]}
 </script>
 
 <!-- JS -->
 <script>
   document.addEventListener('DOMContentLoaded',function(){var fl=document.getElementById('_form_loaded');if(fl)fl.value=Date.now()});
-  var form=document.getElementById('ad-form');
-  if(form){form.addEventListener('submit',function(e){var loaded=parseInt(document.getElementById('_form_loaded').value||'0');if(Date.now()-loaded<3000){e.preventDefault();return false}})}
   var hamburger=document.getElementById('hamburger');
   var mobileNav=document.getElementById('mobile-nav');
   hamburger.addEventListener('click',function(){var isOpen=mobileNav.classList.toggle('open');hamburger.classList.toggle('open',isOpen);hamburger.setAttribute('aria-expanded',isOpen)});
@@ -782,6 +784,34 @@
   var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:0.12});
   revealEls.forEach(function(el){observer.observe(el)});
   document.querySelectorAll('.faq-q').forEach(function(btn){btn.addEventListener('click',function(){var item=btn.closest('.faq-item');var isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false')});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true')}})});
+</script>
+<script>
+/* Lead form + email plumbing: address assembled at runtime, FormSubmit AJAX */
+(function(){
+  var t0=Date.now();
+  function addr(el){return atob(el.getAttribute('data-a'))+String.fromCharCode(64)+atob(el.getAttribute('data-b'));}
+  var links=document.querySelectorAll('a.eml');
+  for(var k=0;k<links.length;k++){(function(a){var e=addr(a),s=a.getAttribute('data-s');a.href='mailto:'+e+(s?'?subject='+encodeURIComponent(s):'');if(!a.textContent.replace(/\s/g,''))a.textContent=e;})(links[k]);}
+  var forms=document.querySelectorAll('form.fs-lead');
+  for(var n=0;n<forms.length;n++){(function(f){
+    f.addEventListener('submit',function(ev){
+      ev.preventDefault();
+      var st=f.querySelector('.fs-status');
+      function say(m,ok){if(st){st.textContent=m;st.style.color=ok?'#1d6f4c':'#b13a22';}else{alert(m);}}
+      var hp=f.querySelector('[name="_honey"]');
+      if(hp&&hp.value){return;}
+      if(Date.now()-t0<3500){say('Give the form a moment, then send again.');return;}
+      var req=f.querySelectorAll('[required]');
+      for(var i=0;i<req.length;i++){var r=req[i];var empty=(r.type==='checkbox'||r.type==='radio')?!r.checked:!String(r.value||'').trim();if(empty){say('Please fill in the required fields.');try{r.focus();}catch(e){}return;}}
+      var btn=f.querySelector('[type="submit"]');if(btn)btn.disabled=true;
+      fetch('https://formsubmit.co/ajax/'+addr(f),{method:'POST',headers:{Accept:'application/json'},body:new FormData(f)})
+        .then(function(res){if(!res.ok)throw new Error('bad');return res.json();})
+        .then(function(j){if(j&&(j.success===false||j.success==='false'))throw new Error('bad');say("Sent. We'll get back to you shortly.",true);f.reset();})
+        .catch(function(){say('That did not go through. Please call 1-800-481-8638.');})
+        .then(function(){if(btn)btn.disabled=false;});
+    });
+  })(forms[n]);}
+})();
 </script>
 </body>
 </html>
